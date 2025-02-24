@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark {
+    background-color: #1e293b;
+    color: #fff;
+}
+header {
+    background: linear-gradient(to right, #3b82f6, #10b981);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+footer {
+    background-color: #111827;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #facc15;
+}
+#hero {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #10b981, #3b82f6);
+    color: white;
+    text-align: center;
+}
+#custom {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+body.dark #custom {
+    background-color: #2d3748;
+}
+#logo {
+    width: 150px;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+#darkModeToggle {
+    background-color: #374151;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#darkModeToggle:hover {
+    background-color: #4b5563;
+}
+#dogcat {
+    width: 193px;
+}

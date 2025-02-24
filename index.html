@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaķu Fakti</title>
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="container" id="box">
+            <img src="src/images/logo.png" id="logo">
+            <h1>🐱 Kaķu Pasaules Brīnumi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#box">Sākums</a></li>
+                    <li><a href="#hero">Par mums</a></li>
+                    <li><a href="#custom">Projekti</a></li>
+                    <li><a href="#">Kontakti</a></li>
+                </ul>
+            </nav>
+            <button id="darkModeToggle">🌙 Tumšais režīms</button>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h2>Laipni lūgti kaķu faktu pasaulē!</h2>
+        <button>Uzzini vairāk</button>
+        <img src="src/images/dogcat.webp" id="dogcat">
+    </section>
+
+    <section id="custom">
+        <h2>Nezināji šo par kaķiem?</h2>
+        <button onclick="showCatFact()">Parādi kaķu faktu! 😺</button>
+        <p id="catFact"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kaķu Fakti</p>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+</body>
+</html>
