@@ -14,10 +14,10 @@
             <h1>🐱 Kaķu Pasaules Brīnumi</h1>
             <nav>
                 <ul>
-                    <li><a href="#box">Sākums</a></li>
+                    <li><a href="#">Sākums</a></li>
                     <li><a href="#hero">Par mums</a></li>
                     <li><a href="#custom">Projekti</a></li>
-                    <li><a href="#">Kontakti</a></li>
+                    <li><a href="#minesweeper">Azartspēles</a></li>
                 </ul>
             </nav>
             <button id="darkModeToggle">🌙 Tumšais režīms</button>
@@ -26,15 +26,24 @@
 
     <section id="hero">
         <h2>Laipni lūgti kaķu faktu pasaulē!</h2>
-        <button>Uzzini vairāk</button>
+        <button id="learnMoreBtn">Uzzini vairāk</button>
         <img src="src/images/dogcat.webp" id="dogcat">
-    </section>
+    </section>  
 
     <section id="custom">
         <h2>Nezināji šo par kaķiem?</h2>
         <button onclick="showCatFact()">Parādi kaķu faktu! 😺</button>
         <p id="catFact"></p>
     </section>
+
+    <section id="minesweeper">
+        <h2>🐱 Kaķu lauks 🐱</h2>
+        <p>Spied uz rūtiņas un mēģini izvairīties no suņiem! <br>Spēlē ir 5 suņi</p>
+        <div id="gameBoard"></div>
+        <p id="gameMessage"></p>
+        <button onclick="resetGame()">🔄 Jauna spēle</button>
+    </section>
+    
 
     <footer>
         <p>&copy; 2025 Kaķu Fakti</p>
